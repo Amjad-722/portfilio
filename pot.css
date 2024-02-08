@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.headerSection {
+  background-color: aqua;
+  height: 100px; /* Add appropriate height in pixels or other units */
+  /* display: flex;
+  flex-direction: row; */
+}
+.navv {
+  display: flex;
+  /* flex-direction: row; */
+  width: 100%;
+}
+.logo {
+  color: black;
+  font-size: 34px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px 60px;
+  width: 25%;
+}
+
+.links {
+  color: aqua;
+  text-align: center;
+  font-size: 34px;
+  gap: 20px;
+  width: 60%;
+  text-decoration: none;
+  margin: right 15px;
+}
+
+.links a {
+  text-decoration: none;
+}
+.socialIcons {
+  display: flex;
+  gap: 10px;
+  height: 18px;
+  margin-right: 20%;
+  padding: 10px;
+}
+
+.H1 {
+  font-size: 18px;
+
+  padding-left: 60px;
+  margin: 0px;
+}
+
+.Web {
+  font-size: 60px;
+  text-transform: capitalize;
+}
+
+.HeroSection {
+  background-color: aquamarine;
+  height: 500px;
+}
+
+.Satisfaction {
+  padding-left: 60px;
+  margin-top: 60px;
+  font-size: 18px;
+}
+
+.sat {
+  font-size: 30px;
+}
+.Doum {
+  font-size: 18px;
+  padding-left: 300px;
+  margin-top: -40px;
+}
+.photo {
+  display: flex;
+  height: 2px;
+  width: 1px;
+  font-size: 30px;
+}
+
+.AboutUs {
+  height: 400px;
+}
+.About {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.Abbout {
+  font-size: 30px;
+}
+
+.ourJourney{
+text-align: center;
+padding-top: 30px;
+
+
+
+}
