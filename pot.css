@@ -1,210 +1,219 @@
-body {
+* {
   padding: 0;
   margin: 0;
 }
-
 .headerSection {
-  background-color: aqua;
-  height: 100px; /* Add appropriate height in pixels or other units */
-  /* display: flex;
-  flex-direction: row; */
-}
-.navv {
   display: flex;
-  /* flex-direction: row; */
+  /* border: 3px solid red; */
+  justify-content: left;
+  padding-top: 30px;
+}
+.NV {
+  display: flex;
+  height: 100px;
   width: 100%;
+  /* background: aqua; */
+  /* border: 2px solid; */
+  justify-content: space-around;
+  flex-direction: row;
 }
-.logo {
-  color: black;
-  font-size: 34px;
-  text-align: left;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  margin: 10px 60px;
-  width: 25%;
-}
-.logo span {
-  font-size: 48px;
-  color: rebeccapurple;
-}
-
-.links {
-  text-align: center;
-  font-size: 28px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
-  width: 600px;
-  text-decoration: none;
-  margin: right 15px;
-}
-
-.links a {
-  text-decoration: none;
-}
-.socialIcons {
+.link ul {
   display: flex;
-  gap: 10px;
-  height: 18px;
-  margin-right: 20%;
-  padding: 10px;
-  gap: 30px;
+  list-style: none;
+  text-decoration: none;
+  /* background: #000; */
+}
+.link li {
+  margin-right: 20px;
 }
 
-h1 {
-  font-size: 18px;
+.Sicns ul {
+  display: flex;
+  list-style: none;
+}
+.Sicns li {
+  margin-right: 20px;
+}
+
+/* -------------------------------------HERO SECTION HERE////////////////////////////////////////////////////////////////------------ */
+.HeroSection {
+  height: 700px;
+ 
+  margin: 1% 15%;
+}
+.Heading h1 {
+  font-size: 26px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
+  font-weight: 700;
+
   padding: 0px;
   margin: 0px;
 }
-
-/* -------------------------------------hero section here------------ */
-.HeroSection {
-  height: 500px;
-  margin: 1% 15%;
-}
-.Web {
+.Heading h1 span {
   font-size: 64px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
 }
 .HeroSection h1 span {
   font-weight: bolder;
+  word-spacing: 50px;
+  letter-spacing: 5px;
   font-size: 64px;
   margin: 0px;
 }
-.HeroSection .slug {
-  font-size: 28px;
-  font-weight: 400;
-  margin: 0px;
+.Heading .slug {
+  font-size: 34px;
 }
 
-.Satisfaction {
-  margin-top: -100px;
-  text-align: left;
-  font-size: 18px;
-}
-.Satisfaction span {
-  font-size: 48px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.CV {
-  text-align: center;
-  margin-right: 200px;
-  margin-top: -50px;
-  font-size: 48px;
-  padding-left: 30px;
-  padding-right: 46px;
-  padding-right: 45;
-  color: black;
-}
-
-.sat {
-  font-size: 30px;
-  margin: 0% 0%;
-}
-.Doum {
-  font-size: 18px;
-  padding-left: 30px;
-  margin-left: 300px;
-  margin-top: -30px;
-}
-.photo {
-  height: 250px;
-  float: right;
-  width: 250px px;
-  display: flex;
-  margin-right: 160px;
-  margin-bottom: 80px;
-}
-
+/* /////////////////////////////////////////////////// SECOUND SEC START HERE???????????????????????????// */
 .second-section {
   display: flex;
-  justify-content: space-between;
-  margin-top: -40px;
-  height: 400px;
-  /* background-color: black; */
-  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  margin-top: 20px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 100px;
+  margin-right: 500px;
+
+  background: #ffe0b3;
+  border-radius: 35px;
 }
-.hi-button {
-  background-color: rgba(255, 166, 0, 0.578);
+.H1-button .H1-h {
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+/* /////////////////////////////////////SAtisfaction */
+.Satisfaction {
+  display: flex;
+  flex-direction: row;
+  margin-right: 70px;
+  margin-top: 70px;
+}
+.Satisfaction span {
+  font-size: 38px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Satisfaction .ClientS{
+  margin-right: 200px;
+  margin-top: 60px;
+}
+.Satisfaction .CV .button {
+  margin-top: 80px;
+  background-color: #04AA6D;
+  border: none;
+  color:black;
+  padding: 15px 32px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+
+.services {
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   flex-direction: column;
+  margin-top: 200px;
+  
+ 
 }
+.SERVICES-PRO .itmes {
+  display: flex;
 
-.hi-button .H1-h {
-  margin: 0px;
-}
-.services .Pservices {
-  text-align: center;
-  margin-top: 150px;
-}
-.ULservices {
-  list-style: none;
-  padding: 0;
-  margin: 50px;
-  text-align: center;
-}
+justify-content: center;
+flex-direction: row;
+list-style: none;
 
-.ULservices li {
-  display: inline-block;
-  margin-right: 45px;
+
+
+
+}
+.itmes li{
+  margin-right: 70px;
+  text-decoration: none;
+  padding-top: 30px;
   font-size: 30px;
+
+
 }
 
-/* /---------------------------------SECTION ABOUT US----------------------------------------------- */
+/* /---------------------------------????????????????????????????SECTION ABOUT US----------------------------------------------- */
 
 .AboutUs {
   height: 500px;
-  background-color: aquamarine;
-}
-
-.About {
-  margin-top: 400px;
-
-  font-size: 18px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  padding-left: 50px;
+  background:rgb(249, 247, 247);
+ 
+  
+  padding-top: 200px;
+ 
+ 
 }
 
-.Abbout {
-  font-size: 30px;
+.About .head-ab{
+  display: flex;
+  justify-content: center;
+  padding-right: 600px;
+  /* text-align: left; */
+
+  /* margin-right: 100px; */
+}
+.About .head-a{
+  font: 30px monospace;
+  line-gap-override: 4px;
+  font-size: 58px;
+  font-weight: 700px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+ 
+
+}
+.ourJourney .para {
+display: flex;
+justify-content: right;
+text-align: center;
+padding-top: 50px;
+font-size: 24px;
+padding-right: 60px
+;
+word-spacing: 3px;
+
+
+
 }
 
-.ourJourney {
-  text-align: center;
-  padding-top: 30px;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 /* ------------------------------------------------------PORTFOLIO SECTION HERE------------------------------------- */
 
 .PORT {
   height: 400px;
   text-align: center;
-  
 }
-.PORT h3{
-font-size: 18px;
-margin: 0;
-margin-top: 40px;
-padding-right: 200px;
-font-weight: lighter;
-
-
+.PORT h3 {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 40px;
+  padding-right: 200px;
+  font-weight: lighter;
 }
-.PORT p{
-font-size: 58px;
-font-weight: bold;
-margin: 0;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.PORT p {
+  font-size: 58px;
+  font-weight: bold;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.boton{
-text-align: center;
-margin-top: -200px;
-
-
-
+.boton {
+  text-align: center;
+  margin-top: -200px;
 }
